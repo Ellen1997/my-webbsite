@@ -4,7 +4,9 @@ body {
 
 h1 {
     color: crimson;
+    text-align: center;
 }
 p {
     color: #000;
+    text-align: center;
 }
