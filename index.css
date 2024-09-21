@@ -6,11 +6,37 @@ body {
 h1 {
     color: crimson;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+p h1 {
+    color: crimson;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+h1 p {
+    color: crimson;
+}
+
+img {
+
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 30px;
+    background-color: papayawhip;
+    border-radius: 50%;
 }
 p {
     color: #000;
     text-align: center;   
     font-style: italic;
+    justify-content: center;
+    justify-items: center;
     font-weight: 400;
 }
 
@@ -19,10 +45,15 @@ p iframe {
     margin: 20px;
     border-radius: 50%;
     padding: 20px;
-    color: crimson;
+    background-color: papayawhip;
+    justify-content: center;
+    justify-items: center;
 
 }
 
-h3 {
+h3, h4 {
     text-align: center;
 }
+
+
+@media(min-width: 1024px) {}
