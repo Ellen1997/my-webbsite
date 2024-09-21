@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "WE'RE THREE BEST FRIENDS THAT ANYONE COULD HAVE!"
+        }
+    </script>
 </head>
 <body>
     <h1>Detta är min första hemsida</h1>
-    <p>Hemsidan är skapad av mig och chatGPT lol</p>
+    <p>Hemsidan är skapad av mig (och chatGPT lol)</p>
+    <p id="demo">Vad är vi?</p>
+    <h3><button type="button" onclick="myFunction()">Klicka här för svar!</button></h3>
 </body>
 </html>
